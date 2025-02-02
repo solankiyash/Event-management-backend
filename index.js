@@ -16,7 +16,7 @@ app.use(express.json());
 // cors for sequrity allow
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://event-management-backend-752z.onrender.com"],
+    origin: ["http://localhost:5173", "https://eventmanagement-q4dou6k5z-yashs-projects-172d3df6.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
