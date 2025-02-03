@@ -16,7 +16,7 @@ app.use(express.json());
 // cors for sequrity allow
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://eventmanagement-theta-dun.vercel.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
